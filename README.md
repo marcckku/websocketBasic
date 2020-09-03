@@ -1,7 +1,9 @@
 # websocketBasic
 Applicazione Basica di come creare una piccola Chat tra un Server e un Client Remoto.
 
-+ Server fatto in SpringBoot versione 2.3.3.RELEASE.
++ Server fatto in SpringBoot versione 2.3.3.RELEASE. Per verificare che tutto sia in ordine, utilizza POSTMAN e inserisci "http://localhost:8876/socket" 
+l'output atteso è: "Welcome to SockJS!".
+
 + Client fatto in Angular 2.x
 + Per eseguire il server del Client Angular fare [ ng serve ]. Di solito Angular crea l'url http://localhost:4200/
 
