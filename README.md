@@ -6,7 +6,17 @@ IMPORTANTE! > Viene utilizzato ...setAllowedOrigins("*") che abilita la comunica
 + Server fatto in SpringBoot versione 2.3.3.RELEASE. Per verificare che tutto sia in ordine, utilizza POSTMAN e inserisci "http://localhost:8876/socket" 
 l'output atteso è: "Welcome to SockJS!".
 
+
 + Client fatto in Angular 2.x. Per eseguire il server del Client Angular fare [ ng serve ]. Di solito Angular crea l'url http://localhost:4200/
+Il client si dovrà collegare su  "http://localhost:8876/socket" poi in console del medesimo browser dovrai vedere :
+
+Web Socket Opened...
+stomp.min.js:8 >>> CONNECT
+accept-version:1.1,1.0
+heart-beat:10000,10000
+
+Vuol dire che il collegamento esiste!!! altrimenti non sarà possible il collegamento..!
+
 
 ////////////////////////////////
 …or push an existing repository from the command line \
