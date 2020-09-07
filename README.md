@@ -13,9 +13,9 @@ Il client si dovrà collegare su  "http://localhost:8876/socket" poi in console 
 Web Socket Opened...\
 stomp.min.js:8 >>> CONNECT\
 accept-version:1.1,1.0\
-heart-beat:10000,10000\
+heart-beat:10000,10000
 
-Vuol dire che il collegamento esiste!!! altrimenti non sarà possible il collegamento..!\
+Vuol dire che il collegamento esiste!!! altrimenti non sarà possible il collegamento..!
 
 
 ////////////////////////////////
